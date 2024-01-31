@@ -88,7 +88,7 @@ const todaysTransactions2: TransactionObj3 = {
     Pizza : -10,
     Books: -5,
     Job: 50,
-    elon: 100 // we can also add new properties
+    elon: 100 // we can also add new properties because of dynmaic interface
 }
 
 /////////////////////////////////////////////////////////

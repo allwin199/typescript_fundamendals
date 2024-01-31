@@ -28,7 +28,7 @@ class Coder1 {
     
     constructor (
         public readonly name: string, // since we are giving visibility as public, we don't have to initialize this property.
-                                      // It is alsi a readonly property, which means it can't be changed
+                                      // It is alsa a readonly property, which means it can't be changed
         public music: string,
         private age: number,
                                       // private can be accessed only inside the class
@@ -84,7 +84,7 @@ interface Musician {
     name: string,
     instrument: string,
     play(action: string): string
-    // play is a method, which takes action as param
+    // play is a method, which takes action as param which is a tring and it will return a string
 }
 
 class Drummer implements Musician {
